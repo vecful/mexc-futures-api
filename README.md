@@ -3,17 +3,17 @@
 ## Overview
 The **MEXC Contract API** allows you to access and manage various aspects of the MEXC Futures trading platform programmatically. The API provides access to functionalities such as managing assets, orders, positions, and account settings.
 
-This document details all available endpoint. Those that are `Under maintenance` have been **bypassed**, which means they are available to use without any restrictions.
-
-If you only need non-order endpoints, better use some already available SDK.
-
----
-
+This document details all available endpoints. Those that are marked `Under maintenance` have been **bypassed**, which means they are available to use without any restrictions.
 
 *Code is currently only available in Typescript, Python coming soon.*
 
 
 To get access, contact at Telegram: [@vecful](https://t.me/vecful)
+
+---
+
+If you only need non-order endpoints, better use some already available SDK.
+
 
 
 ## Endpoints Overview
