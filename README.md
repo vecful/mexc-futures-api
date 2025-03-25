@@ -10,8 +10,7 @@ This document details all available endpoints. Those that are marked `Under main
 
 To get access, contact at Telegram: [@vecful](https://t.me/vecful)
 
-<video width="600" controls style="display: block; margin: auto;" src="assets/rec.mp4">
-</video>
+![assets/demo.gif](assets/demo.gif)
 
 ---
 
