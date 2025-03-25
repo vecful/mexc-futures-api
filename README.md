@@ -10,11 +10,12 @@ This document details all available endpoints. Those that are marked `Under main
 
 To get access, contact at Telegram: [@vecful](https://t.me/vecful)
 
+<video width="600" controls style="display: block; margin: auto;">
+  <source src="assets/rec.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ---
-
-If you only need non-order endpoints, better use some already available SDK.
-
-
 
 ## Endpoints Overview
 
@@ -113,3 +114,10 @@ If you only need non-order endpoints, better use some already available SDK.
 - **Endpoint**: `/private/position/change_position_mode`
 
 ---
+
+
+### 7. Extra (simplified methods)
+
+#### Market order
+
+#### Stop limit order
