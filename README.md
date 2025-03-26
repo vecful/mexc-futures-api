@@ -5,10 +5,13 @@ The **MEXC Contract API** allows you to access and manage various aspects of the
 
 This document details all available endpoints. Those that are marked `Under maintenance` have been **bypassed**, which means they are available to use without any restrictions.
 
-*Code is currently only available in Typescript and Python (Fully typed). Other languages available upon request.*
+*Code is currently only available in Typescript and Python. Python version is fully typed. Other languages available upon request.*
 
 
-To get access, contact at Telegram: [@vecful](https://t.me/vecful)
+### To get access, contact at:
+
+* Telegram: [@vecful](https://t.me/vecful)
+* Discrod: @vecful
 
 ![assets/demo.gif](assets/demo.gif)
 
