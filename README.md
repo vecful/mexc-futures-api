@@ -11,7 +11,7 @@ This document details all available endpoints. Those that are marked `Under main
 ### To get access, contact at:
 
 * Telegram: [@vecful](https://t.me/vecful)
-* Discrod: @vecful
+* Discord: @vecful
 
 ![assets/demo.gif](assets/demo.gif)
 
