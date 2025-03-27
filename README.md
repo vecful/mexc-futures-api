@@ -8,7 +8,7 @@ This document details all available endpoints. Those that are marked `Under main
 *Code is currently only available in Typescript and Python. Python version is fully typed. Other languages available upon request.*
 
 
-### To get access, contact at:
+### To get access or if you have any questions, contact at:
 
 * Telegram: [@vecful](https://t.me/vecful)
 * Discord: @vecful

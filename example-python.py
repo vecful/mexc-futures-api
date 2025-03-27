@@ -6,7 +6,7 @@ from mexcpy.api import MexcFuturesAPI
 
 key = 'your key'
 
-api = MexcFuturesAPI(token, testnet=True)
+api = MexcFuturesAPI(key, testnet=True)
 
 async def main():
     market_order_response = await api.create_market_order("BTC_USDT", OrderSide.OpenLong, 1000, 20)
