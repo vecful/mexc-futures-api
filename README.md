@@ -10,8 +10,10 @@ This document details all available endpoints. Those that are marked `Under main
 
 ### To get access or if you have any questions, contact at:
 
-* Telegram: [@vecful](https://t.me/vecful)
+* Telegram: [@vecful](https://t.me/vecful) (I am usually on here)
 * Discord: @vecful
+
+If you don't feel comfortable with the simple way, we can always do escrow services.
 
 ![assets/demo.gif](assets/demo.gif)
 
@@ -55,10 +57,10 @@ This document details all available endpoints. Those that are marked `Under main
 - **Endpoint**: `/private/order/list/history_orders`
 
 #### Create a New Order (Bypassed under maintenance)
-- **Endpoint**: `/private/order/submit`
+- **Endpoint**: `/private/order/create`
 
-#### Cancel Orders (Bypassed under maintenance)
-- **Endpoint**: `/private/order/cancel`
+#### ~Cancel Orders (This one doesn't work even with bypass, unfortunately)~
+- ~**Endpoint**: `/private/order/cancel`~
 
 #### Cancel All Orders (Bypassed under maintenance)
 - **Endpoint**: `/private/order/cancel_all`
