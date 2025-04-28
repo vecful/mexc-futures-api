@@ -71,8 +71,8 @@ If you don't feel comfortable with the simple way, we can always do escrow servi
 #### Create a New Order (Bypassed under maintenance)
 - **Endpoint**: `/private/order/create`
 
-#### ~Cancel Orders (This one doesn't work even with bypass, unfortunately)~
-- ~**Endpoint**: `/private/order/cancel`~
+#### Cancel Orders (Bypassed under maintenance)
+- **Endpoint**: `/private/order/cancel`
 
 #### Cancel All Orders (Bypassed under maintenance)
 - **Endpoint**: `/private/order/cancel_all`
