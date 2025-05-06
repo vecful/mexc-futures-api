@@ -26,6 +26,22 @@ If you don't feel comfortable with the simple way, we can always do escrow servi
 
 If you are interested in spot bypass instead, you can find more information here: [mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)
 
+---
+
+## FAQ
+> Does it fully support placing, cancelling, and tracking all types of futures orders (market, limit, stop-limit, etc.)?
+
+Yes
+
+> Can the bypass API fetch account info, open positions, and adjust leverage/margin?
+
+I only provide endpoints listed in `Endpoints Overview` below.
+
+> Is there any setup guide or quick demo so I know what I’m getting?
+
+Brief setup guide can be seen in the example files. For a quick demo, I can send you one in a private message.
+ 
+---
 
 ![assets/demo.gif](assets/demo.gif)
 
