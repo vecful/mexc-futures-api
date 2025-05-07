@@ -1,11 +1,14 @@
 # MEXC Futures API (Bypassed)
 
+This API is for making requests that have been marked as `Under maintenance` in MEXC API docs. (example [here](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance))
+
+
 ## Overview
 The **MEXC Contract API** allows you to access and manage various aspects of the MEXC Futures trading platform programmatically. The API provides access to functionalities such as managing assets, orders, positions, and account settings.
 
 This document details all available endpoints. Those that are marked `Under maintenance` have been **bypassed**, which means they are available to use without any restrictions.
 
-*Code is currently only available in Typescript and Python. Python version is fully typed. Other languages available upon request.*
+*Code is currently only available in Typescript, Python and as Postman collection (more [here](#postman-collection)). Python version is fully typed. Other languages available upon request.*
 
 
 ### To get access or if you have any questions, contact at:
@@ -35,15 +38,32 @@ If you are interested in spot bypass instead, you can find more information here
 ## FAQ
 > Does it fully support placing, cancelling, and tracking all types of futures orders (market, limit, stop-limit, etc.)?
 
-Yes
+Yes. For more info, look at [endpoints overview](#endpoints-overview) section.
 
 > Can the bypass API fetch account info, open positions, and adjust leverage/margin?
 
-I only provide endpoints listed in `Endpoints Overview` below.
+Yes. For more info, look at [endpoints overview](#endpoints-overview) section.
+
+> How does authentication work – do I need an API key, or does it use something else?
+
+It doesn't use API keys.
 
 > Is there any setup guide or quick demo so I know what I’m getting?
 
 Brief setup guide can be seen in the example files. For a quick demo, I can send you one in a private message.
+
+> Is the library provided as open source or as compiled/obfuscated code?
+
+Currently, everything is open-sourced, nothing is obfuscated.
+
+> Can the library be used with multiple accounts, or is the authentication tied to a single one?
+
+No limitation on number of accounts.
+
+> Does it use anything third-party to make those requests?
+
+No.
+
  
 ---
 
@@ -149,9 +169,8 @@ Brief setup guide can be seen in the example files. For a quick demo, I can send
 
 ---
 
+## Postman collection
 
-### 7. Extra (simplified methods)
+![image](https://github.com/user-attachments/assets/5ef3f585-c043-42ba-827d-1e435c1167ae)
 
-#### Market order
 
-#### Stop limit order
