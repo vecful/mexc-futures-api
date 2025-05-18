@@ -31,6 +31,7 @@ If you don't feel comfortable with the simple way, we can always do escrow servi
 <img width="77" alt="image" src="https://github.com/user-attachments/assets/149e57ce-b210-4e26-9adb-41ca308d54f0" />
 <img width="77" alt="image" src="https://github.com/user-attachments/assets/182b5ce1-683a-463c-9112-0f1c417055ab" />
 <img width="77" alt="image" src="https://github.com/user-attachments/assets/e0e13c82-69f8-4eca-9b94-0261eaf1c824" />
+<img width="77" alt="image" src="https://github.com/user-attachments/assets/0fb474ee-326d-4198-b2eb-4581aa433309" />
 
 
 If you are interested in spot bypass instead, you can find more information here: [mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)
