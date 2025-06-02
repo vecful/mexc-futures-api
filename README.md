@@ -11,12 +11,9 @@ This document details all available endpoints. Those that are marked `Under main
 *Code is currently only available in Typescript, Python and as Postman collection (more [here](#postman-collection)). Python version is fully typed. Other languages available upon request.*
 
 
-### To get access or if you have any questions or you want to test yourself contact at:
+### To get access or if you have any questions:
 
 * Telegram: [@vecful](https://t.me/vecful) (I am usually on here)
-
-If you don't feel comfortable with the simple way, we can always do escrow services.
-
 
 If you are interested in spot bypass instead, you can find more information here: [mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)
 
