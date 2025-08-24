@@ -13,7 +13,7 @@ This document details all available endpoints. Those that are marked `Under main
 
 ### To get access or if you have any questions:
 
-* Telegram: [@vecful](https://t.me/vecful) (I am usually on here)
+* Telegram: [@vecful](https://t.me/vecful)
 
 If you are interested in spot bypass instead, you can find more information here: [mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)
 
@@ -23,7 +23,7 @@ If you are interested in spot bypass instead, you can find more information here
 
 ---
 
-## Endpoints Overview
+## Endpoints available in the API
 
 ### 1. **User Assets**
 
