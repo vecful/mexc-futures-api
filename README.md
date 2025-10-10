@@ -1,5 +1,6 @@
 # MEXC Futures API (Bypassed)
 
+
 This API is for making requests that have been marked as `Under maintenance` in MEXC API docs. (example [here](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance))
 
 
@@ -22,6 +23,10 @@ If you are interested in spot bypass instead, you can find more information here
 ![assets/demo.gif](assets/demo.gif)
 
 ---
+
+## Disclaimer
+
+${{\color{red}{\textsf{MEXC\ started\ banning\ people\ who\ use\ this\ API\}}}}\$
 
 ## Endpoints available in the API
 
