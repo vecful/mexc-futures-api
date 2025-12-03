@@ -1,133 +1,160 @@
-# MEXC Futures API (Bypassed)
-
-
-This API is for making requests that have been marked as `Under maintenance` in MEXC API docs. (example [here](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance))
-
-
-## Overview
-The **MEXC Contract API** allows you to access and manage various aspects of the MEXC Futures trading platform programmatically. The API provides access to functionalities such as managing assets, orders, positions, and account settings.
-
-This document details all available endpoints. Those that are marked `Under maintenance` have been **bypassed**, which means they are available to use without any restrictions.
-
-*Code is currently only available in Typescript, Python and as Postman collection (more [here](#postman-collection)). Python version is fully typed. Other languages available upon request.*
-
-
-### To get access or if you have any questions:
-
-* Telegram: [@vecful](https://t.me/vecful)
-
-If you are interested in spot bypass instead, you can find more information here: [mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)
-
----
-
-![assets/demo.gif](assets/demo.gif)
-
----
-
-## Disclaimer
-
-${{\color{red}{\textsf{MEXC\ started\ banning\ people\ who\ use\ this\ API\}}}}\$
-
-## Endpoints available in the API
-
-### 1. **User Assets**
-
-#### Get All Information of User's Assets
-- **Endpoint**: `/private/account/assets`
+<div align="center">
   
-#### Get Single Currency Asset Information
-- **Endpoint**: `/private/account/asset/{currency}`
+```
+███╗   ███╗███████╗██╗  ██╗ ██████╗    ██████╗ ██╗   ██╗██████╗  █████╗ ███████╗███████╗
+████╗ ████║██╔════╝╚██╗██╔╝██╔════╝    ██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝
+██╔████╔██║█████╗   ╚███╔╝ ██║         ██████╔╝ ╚████╔╝ ██████╔╝███████║███████╗███████╗
+██║╚██╔╝██║██╔══╝   ██╔██╗ ██║         ██╔══██╗  ╚██╔╝  ██╔═══╝ ██╔══██║╚════██║╚════██║
+██║ ╚═╝ ██║███████╗██╔╝ ██╗╚██████╗    ██████╔╝   ██║   ██║     ██║  ██║███████║███████║
+╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝    ╚═════╝    ╚═╝   ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
+```
+
+![License: Proprietary](https://img.shields.io/badge/license-proprietary-red)
+![Private Code](https://img.shields.io/badge/source-private-orange)
+![Paid Access](https://img.shields.io/badge/access-paid-blue)
+
+</div>
+
+<div align="center">
+
+<a href="#"><img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript"></a>
+<a href="#"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python"></a>
+
+</div>
+
+# 🔷 MEXC Futures API (Bypassed)
+
+This API is for making requests that have been marked as [Under maintenance](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance) in MEXC API docs.
+
+<br>
+
+> [!NOTE]
+> Get access by contacting me on Telegram: [@vecful](https://t.me/vecful)
+
+<br>
+
+## 🎖 Features
+
+- ⚡ **Fast** — 200-400ms response times
+- 🔐 **No third-party requests** — Direct communication with MEXC
+- 🌐 **Mainnet & Testnet** — Works on both environments
+- ⌨️ **TypeScript & Python** — Fully typed libraries
+- 📦 **Postman Collection** — Ready-to-use API collection
 
 ---
 
-### 2. **Asset Transfer Records**
+## 💳 Pricing
 
-#### Get User's Asset Transfer Records
-- **Endpoint**: `/private/account/transfer_record`
+| Option          | Price   | Duration | Includes               |
+| --------------- | ------- | -------- | ---------------------- |
+| 💾 API SDK Source Code | $120    | Lifetime | Full source, no limits |
+| 🪞 Mirror bot  | Coming soon     | Lifetime | Full source, no limits |
 
----
-
-### 3. **User Positions**
-
-#### Get Historical Positions
-- **Endpoint**: `/private/position/list/history_positions`
-
-#### Get Open Positions
-- **Endpoint**: `/private/position/open_positions`
+📬 **[Contact me on Telegram »](https://t.me/vecful)**
 
 ---
 
-### 4. **Order Management**
+## 📖 Available Endpoints
 
-#### Get Current Pending Orders
-- **Endpoint**: `/private/order/list/open_orders`
+### User Assets
 
-#### Get Historical Orders
-- **Endpoint**: `/private/order/list/history_orders`
+| Endpoint                            | Status       |
+| ----------------------------------- | ------------ |
+| `/private/account/assets`           | ✅ Available |
+| `/private/account/asset/{currency}` | ✅ Available |
+| `/private/account/transfer_record`  | ✅ Available |
 
-#### Create a New Order (Bypassed under maintenance)
-- **Endpoint**: `/private/order/create`
+### Positions
 
-#### Cancel Orders (Bypassed under maintenance)
-- **Endpoint**: `/private/order/cancel`
+| Endpoint                                   | Status       |
+| ------------------------------------------ | ------------ |
+| `/private/position/list/history_positions` | ✅ Available |
+| `/private/position/open_positions`         | ✅ Available |
 
-#### Cancel All Orders (Bypassed under maintenance)
-- **Endpoint**: `/private/order/cancel_all`
+### Order Management
 
-#### Cancel the order according to the external order ID (Bypassed under maintenance)
-- **Endpoint**: `/private/order/cancel_with_external`
+| Endpoint                              | Status          |
+| ------------------------------------- | --------------- |
+| `/private/order/list/open_orders`     | ✅ Available    |
+| `/private/order/list/history_orders`  | ✅ Available    |
+| `/private/order/create`               | 🔓 **Bypassed** |
+| `/private/order/cancel`               | 🔓 **Bypassed** |
+| `/private/order/cancel_all`           | 🔓 **Bypassed** |
+| `/private/order/cancel_with_external` | 🔓 **Bypassed** |
 
----
+### Trigger & Stop-Limit Orders
 
-### 5. **Trigger Orders and Stop-Limit Orders**
+| Endpoint                         | Status          |
+| -------------------------------- | --------------- |
+| `/private/planorder/list/orders` | ✅ Available    |
+| `/private/planorder/place`       | 🔓 **Bypassed** |
+| `/private/planorder/cancel`      | 🔓 **Bypassed** |
+| `/private/planorder/cancel_all`  | 🔓 **Bypassed** |
+| `/private/stoporder/list/orders` | ✅ Available    |
+| `/private/stoporder/cancel`      | 🔓 **Bypassed** |
+| `/private/stoporder/cancel_all`  | 🔓 **Bypassed** |
 
-#### Get Trigger Orders
-- **Endpoint**: `/private/planorder/list/orders`
+### Risk Limits & Leverage
 
-#### Create a Trigger Order (Bypassed under maintenance)
-- **Endpoint**: `/private/planorder/place`
-
-#### Cancel Trigger Order (Bypassed under maintenance)
-- **Endpoint**: `/private/planorder/cancel`
-  
-#### Cancel All Trigger Orders (Bypassed under maintenance)
-- **Endpoint**: `/private/planorder/cancel_all`
-
-#### Get Stop-Limit Orders
-- **Endpoint**: `/private/stoporder/list/orders`
-
-#### Cancel single Stop-Limit trigger order (Bypassed under maintenance)
-- **Endpoint**: `/private/stoporder/cancel`
-
-#### Cancel All Stop-Limit Orders (Bypassed under maintenance)
-- **Endpoint**: `/private/stoporder/cancel_all`
-
----
-
-### 6. **Risk Limits and Leverage**
-
-#### Get Risk Limits
-- **Endpoint**: `/private/account/risk_limit`
-
-#### Change Margin
-- **Endpoint**: `/private/position/change_margin`
-
-#### Get Leverage
-- **Endpoint**: `/private/position/leverage`
-
-#### Change Leverage
-- **Endpoint**: `/private/position/change_leverage`
-
-#### Get Position Mode
-- **Endpoint**: `/private/position/position_mode`
-
-#### Change Position Mode
-- **Endpoint**: `/private/position/change_position_mode`
+| Endpoint                                 | Status       |
+| ---------------------------------------- | ------------ |
+| `/private/account/risk_limit`            | ✅ Available |
+| `/private/position/change_margin`        | ✅ Available |
+| `/private/position/leverage`             | ✅ Available |
+| `/private/position/change_leverage`      | ✅ Available |
+| `/private/position/position_mode`        | ✅ Available |
+| `/private/position/change_position_mode` | ✅ Available |
 
 ---
 
-## Postman collection
+## 🚀 Quick Start
 
-![image](https://github.com/user-attachments/assets/5ef3f585-c043-42ba-827d-1e435c1167ae)
+### TypeScript
+
+```typescript
+import { MexcFutureAPI } from "./mexc";
+import { OrderSide } from "./mexcTypes";
+
+async function main() {
+  const key = 'your key'
+  const api = new MexcFutureAPI(key);
+  await api.createMarketOrder('BTC_USDT', OrderSide.OpenLong, 1000, 20);
+}
+
+if (require.main === module) {
+  main()
+}
+```
+
+### Python
+
+```python
+import asyncio
+from mexcpy.mexcTypes import OrderSide
+from mexcpy.api import MexcFuturesAPI
+
+async def main():
+    key = 'your key'
+    api = MexcFuturesAPI(key)
+    await api.create_market_order("BTC_USDT", OrderSide.OpenLong, 1000, 20)
+
+if __name__ == "__main__": 
+    asyncio.run(main())
+```
 
 
+## 🔗 Related Projects
+
+Looking for **Spot** trading bypass instead?
+
+👉 **[mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)**
+
+👉 **[overview-page](https://www.mexc-bypass.com/)**
+
+---
+
+## 💌 Contact
+
+<a href="https://t.me/vecful"><img src="https://img.shields.io/badge/Telegram-@vecful-2CA5E0?logo=telegram&logoColor=white" alt="Telegram"></a>
+
+For access, questions, or custom integrations — reach out on Telegram: **[@vecful](https://t.me/vecful)**
