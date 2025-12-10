@@ -35,20 +35,21 @@ This API is for making requests that have been marked as [Under maintenance](htt
 
 ## 🎖 Features
 
-- ⚡ **Fast** — 200-400ms response times
+- ⚡ **Fast** — 200-300ms response times
 - 🔐 **No third-party requests** — Direct communication with MEXC
 - 🌐 **Mainnet & Testnet** — Works on both environments
-- ⌨️ **TypeScript & Python** — Fully typed libraries
+- ⌨️ **TypeScript or Python** — Fully typed libraries
 - 📦 **Postman Collection** — Ready-to-use API collection
 
 ---
 
 ## 💳 Pricing
 
-| Option          | Price   | Duration | Includes               |
+| Option          | Price   | Duration | Description               |
 | --------------- | ------- | -------- | ---------------------- |
-| 💾 API SDK Source Code | $120    | Lifetime | Full source, no limits |
-| 🪞 Mirror bot  | Coming soon     | Lifetime | Full source, no limits |
+| 💾 Futures API SDK Source Code | $120    | Lifetime | API code for managing orders |
+| 💾 Spot API SDK Source Code | $120    | Lifetime | Want to create orders for newly listed spot coins? |
+| 🪞 Multi-Account Copy bot  | $400  | Lifetime | Propagates created orders of one account to others |
 
 📬 **[Contact me on Telegram »](https://t.me/vecful)**
 
