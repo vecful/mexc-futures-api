@@ -1,110 +1,90 @@
 <div align="center">
-  
-```
-███╗   ███╗███████╗██╗  ██╗ ██████╗    ██████╗ ██╗   ██╗██████╗  █████╗ ███████╗███████╗
-████╗ ████║██╔════╝╚██╗██╔╝██╔════╝    ██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝
-██╔████╔██║█████╗   ╚███╔╝ ██║         ██████╔╝ ╚████╔╝ ██████╔╝███████║███████╗███████╗
-██║╚██╔╝██║██╔══╝   ██╔██╗ ██║         ██╔══██╗  ╚██╔╝  ██╔═══╝ ██╔══██║╚════██║╚════██║
-██║ ╚═╝ ██║███████╗██╔╝ ██╗╚██████╗    ██████╔╝   ██║   ██║     ██║  ██║███████║███████║
-╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝    ╚═════╝    ╚═╝   ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
-```
 
-![License: Proprietary](https://img.shields.io/badge/license-proprietary-red)
-![Private Code](https://img.shields.io/badge/source-private-orange)
-![Paid Access](https://img.shields.io/badge/access-paid-blue)
+# ⚡ MEXC Futures API Bypass
 
-</div>
+### Trade MEXC Futures even during official API maintenance
 
-<div align="center">
-
-<a href="#"><img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript"></a>
-<a href="#"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python"></a>
-
-</div>
-
-# 🔷 MEXC Futures API (Bypassed)
-
-This API is for making requests that have been marked as [Under maintenance](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance) in MEXC API docs.
+## 🌐 [mexc-bypass.com](https://mexc-bypass.com)
 
 <br>
 
-> [!NOTE]
-> Get access by contacting me on Telegram: [@vecful](https://t.me/vecful)
+[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-mexc--bypass.com-10B981?style=for-the-badge)](https://mexc-bypass.com)
+[![Telegram](https://img.shields.io/badge/Telegram-@vecful-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vecful)
 
 <br>
 
-## 🎖 Features
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-proprietary-red)
 
-- ⚡ **Fast** — 200-300ms response times
-- 🔐 **No third-party requests** — Direct communication with MEXC
-- 🌐 **Mainnet & Testnet** — Works on both environments
-- ⌨️ **TypeScript or Python** — Fully typed libraries
-- 📦 **Postman Collection** — Ready-to-use API collection
+</div>
+
+---
+
+## 🎯 What is this?
+
+This API bypasses MEXC's [Under Maintenance](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance) restrictions, allowing you to create orders, manage positions, and trade futures even when the official API is blocked.
+
+**Try it out:** [mexc-bypass.com](https://mexc-bypass.com)
+
+---
+
+## ✨ Features
+
+| Feature                    | Description                                               |
+| -------------------------- | --------------------------------------------------------- |
+| ⚡ **Fast**                | 200-300ms response times                                  |
+| 🔐 **Direct Connection**   | No third-party requests — communicates directly with MEXC |
+| 🌐 **Mainnet & Testnet**   | Works on both environments                                |
+| ⌨️ **TypeScript & Python** | Fully typed libraries available                           |
+| 📦 **Postman Collection**  | Ready-to-use API collection included                      |
 
 ---
 
 ## 💳 Pricing
 
-| Option          | Price   | Duration | Description               |
-| --------------- | ------- | -------- | ---------------------- |
-| 💾 Futures API SDK Source Code | $120    | Lifetime | API code for managing orders |
-| 💾 Spot API SDK Source Code | $120    | Lifetime | Want to create orders for newly listed spot coins? |
-| 🪞 Multi-Account Copy bot  | $400  | Lifetime | Propagates created orders of one account to others |
+| Product                       | Price | Description                                   |
+| ----------------------------- | ----- | --------------------------------------------- |
+| 💾 **Futures API SDK**        | $120  | Full source code for futures order management |
+| 💾 **Spot API SDK**           | $120  | Full source code. Create orders for newly listed spot coins     |
+| 🪞 **Multi-Account Copy Bot** | $400  | Mirror trades across multiple accounts        |
+| 🪞 **Multi-Account Copy Bot Subscription** | Coming soon...  | Mirror trades across multiple accounts        |
+| ✈️ **Signal Trading Bot**     | Custom | Auto-copy trades from Telegram signals        |
+| 🔍 **OCR Trading Bot**        | Custom | Read signals from screenshots or messages     |
 
-📬 **[Contact me on Telegram »](https://t.me/vecful)**
+
+**Payment:** USDT, USDC
+
+📬 **[Contact on Telegram →](https://t.me/vecful)**
 
 ---
 
-## 📖 Available Endpoints
+## 🔓 Bypassed Endpoints
 
-### User Assets
+### Order Management
+
+| Endpoint                    | Status          |
+| --------------------------- | --------------- |
+| `/private/order/create`     | 🔓 **Bypassed** |
+| `/private/order/cancel`     | 🔓 **Bypassed** |
+| `/private/order/cancel_all` | 🔓 **Bypassed** |
+
+### Trigger & Stop Orders
+
+| Endpoint                    | Status          |
+| --------------------------- | --------------- |
+| `/private/planorder/place`  | 🔓 **Bypassed** |
+| `/private/planorder/cancel` | 🔓 **Bypassed** |
+| `/private/stoporder/cancel` | 🔓 **Bypassed** |
+
+### Available Endpoints
 
 | Endpoint                            | Status       |
 | ----------------------------------- | ------------ |
 | `/private/account/assets`           | ✅ Available |
-| `/private/account/asset/{currency}` | ✅ Available |
-| `/private/account/transfer_record`  | ✅ Available |
-
-### Positions
-
-| Endpoint                                   | Status       |
-| ------------------------------------------ | ------------ |
-| `/private/position/list/history_positions` | ✅ Available |
-| `/private/position/open_positions`         | ✅ Available |
-
-### Order Management
-
-| Endpoint                              | Status          |
-| ------------------------------------- | --------------- |
-| `/private/order/list/open_orders`     | ✅ Available    |
-| `/private/order/list/history_orders`  | ✅ Available    |
-| `/private/order/create`               | 🔓 **Bypassed** |
-| `/private/order/cancel`               | 🔓 **Bypassed** |
-| `/private/order/cancel_all`           | 🔓 **Bypassed** |
-| `/private/order/cancel_with_external` | 🔓 **Bypassed** |
-
-### Trigger & Stop-Limit Orders
-
-| Endpoint                         | Status          |
-| -------------------------------- | --------------- |
-| `/private/planorder/list/orders` | ✅ Available    |
-| `/private/planorder/place`       | 🔓 **Bypassed** |
-| `/private/planorder/cancel`      | 🔓 **Bypassed** |
-| `/private/planorder/cancel_all`  | 🔓 **Bypassed** |
-| `/private/stoporder/list/orders` | ✅ Available    |
-| `/private/stoporder/cancel`      | 🔓 **Bypassed** |
-| `/private/stoporder/cancel_all`  | 🔓 **Bypassed** |
-
-### Risk Limits & Leverage
-
-| Endpoint                                 | Status       |
-| ---------------------------------------- | ------------ |
-| `/private/account/risk_limit`            | ✅ Available |
-| `/private/position/change_margin`        | ✅ Available |
-| `/private/position/leverage`             | ✅ Available |
-| `/private/position/change_leverage`      | ✅ Available |
-| `/private/position/position_mode`        | ✅ Available |
-| `/private/position/change_position_mode` | ✅ Available |
+| `/private/position/open_positions`  | ✅ Available |
+| `/private/order/list/open_orders`   | ✅ Available |
+| `/private/position/change_leverage` | ✅ Available |
 
 ---
 
@@ -117,14 +97,12 @@ import { MexcFutureAPI } from "./mexc";
 import { OrderSide } from "./mexcTypes";
 
 async function main() {
-  const key = 'your key'
+  const key = "your key";
   const api = new MexcFutureAPI(key);
-  await api.createMarketOrder('BTC_USDT', OrderSide.OpenLong, 1000, 20);
+  await api.createMarketOrder("BTC_USDT", OrderSide.OpenLong, 1000, 20);
 }
 
-if (require.main === module) {
-  main()
-}
+main();
 ```
 
 ### Python
@@ -139,23 +117,21 @@ async def main():
     api = MexcFuturesAPI(key)
     await api.create_market_order("BTC_USDT", OrderSide.OpenLong, 1000, 20)
 
-if __name__ == "__main__": 
-    asyncio.run(main())
+asyncio.run(main())
 ```
-
-
-## 🔗 Related Projects
-
-Looking for **Spot** trading bypass instead?
-
-👉 **[mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)**
-
-👉 **[overview-page](https://www.mexc-bypass.com/)**
 
 ---
 
-## 💌 Contact
+## 🔗 Links
 
-<a href="https://t.me/vecful"><img src="https://img.shields.io/badge/Telegram-@vecful-2CA5E0?logo=telegram&logoColor=white" alt="Telegram"></a>
+- 🌐 **Website:** [mexc-bypass.com](https://mexc-bypass.com)
+- 💬 **Telegram:** [@vecful](https://t.me/vecful)
+- 📈 **Spot API:** [mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)
 
-For access, questions, or custom integrations — reach out on Telegram: **[@vecful](https://t.me/vecful)**
+---
+
+<div align="center">
+
+**[🌐 mexc-bypass.com](https://mexc-bypass.com)** · **[💬 @vecful](https://t.me/vecful)**
+
+</div>
