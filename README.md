@@ -33,7 +33,7 @@ This API bypasses MEXC's [Under Maintenance](https://mexcdevelop.github.io/apido
 
 | Feature                    | Description                                               |
 | -------------------------- | --------------------------------------------------------- |
-| ⚡ **Fast**                | 200-300ms response times                                  |
+| ⚡ **Fast**                | 200-300ms response times *(you can get it under <100ms given the right region)*                                |
 | 🔐 **Direct Connection**   | No third-party requests — communicates directly with MEXC |
 | 🌐 **Mainnet & Testnet**   | Works on both environments                                |
 | ⌨️ **TypeScript & Python** | Fully typed libraries available                           |
@@ -43,15 +43,14 @@ This API bypasses MEXC's [Under Maintenance](https://mexcdevelop.github.io/apido
 
 ## 💳 Pricing
 
-| Product                       | Price | Description                                   |
-| ----------------------------- | ----- | --------------------------------------------- |
-| 💾 **Futures API SDK**        | $120  | Full source code for futures order management |
-| 💾 **Spot API SDK**           | $120  | Full source code. Create orders for newly listed spot coins     |
-| 🪞 **Multi-Account Copy Bot** | $400  | Mirror trades across multiple accounts        |
-| 🪞 **Multi-Account Copy Bot Subscription** | Coming soon...  | Mirror trades across multiple accounts        |
-| ✈️ **Signal Trading Bot**     | Custom | Auto-copy trades from Telegram signals        |
-| 🔍 **OCR Trading Bot**        | Custom | Read signals from screenshots or messages     |
-
+| Product                                    | Price          | Description                                                 |
+| ------------------------------------------ | -------------- | ----------------------------------------------------------- |
+| 💾 **Futures API SDK**                     | $120           | Full source code for futures order management               |
+| 💾 **Spot API SDK**                        | $120           | Full source code. Create orders for newly listed spot coins |
+| 🪞 **Multi-Account Copy Bot**              | $400           | Mirror trades across multiple accounts                      |
+| 🪞 **Multi-Account Copy Bot Subscription** | Coming soon... | Mirror trades across multiple accounts                      |
+| ✈️ **Signal Trading Bot**                  | Custom         | Auto-copy trades from Telegram signals                      |
+| 🔍 **OCR Trading Bot**                     | Custom         | Read signals from screenshots or messages                   |
 
 **Payment:** USDT, USDC
 
@@ -63,28 +62,85 @@ This API bypasses MEXC's [Under Maintenance](https://mexcdevelop.github.io/apido
 
 ### Order Management
 
-| Endpoint                    | Status          |
-| --------------------------- | --------------- |
-| `/private/order/create`     | 🔓 **Bypassed** |
-| `/private/order/cancel`     | 🔓 **Bypassed** |
-| `/private/order/cancel_all` | 🔓 **Bypassed** |
+| Method | Endpoint                              | Status          |
+| ------ | ------------------------------------- | --------------- |
+| POST   | `/private/order/create`               | 🔓 **Bypassed** |
+| POST   | `/private/order/cancel`               | 🔓 **Bypassed** |
+| POST   | `/private/order/cancel_with_external` | 🔓 **Bypassed** |
+| POST   | `/private/order/cancel_all`           | 🔓 **Bypassed** |
 
-### Trigger & Stop Orders
+### Trigger Orders (Plan Orders)
 
-| Endpoint                    | Status          |
-| --------------------------- | --------------- |
-| `/private/planorder/place`  | 🔓 **Bypassed** |
-| `/private/planorder/cancel` | 🔓 **Bypassed** |
-| `/private/stoporder/cancel` | 🔓 **Bypassed** |
+| Method | Endpoint                        | Status          |
+| ------ | ------------------------------- | --------------- |
+| POST   | `/private/planorder/place`      | 🔓 **Bypassed** |
+| POST   | `/private/planorder/cancel`     | 🔓 **Bypassed** |
+| POST   | `/private/planorder/cancel_all` | 🔓 **Bypassed** |
 
-### Available Endpoints
+### Stop Limit Orders
 
-| Endpoint                            | Status       |
-| ----------------------------------- | ------------ |
-| `/private/account/assets`           | ✅ Available |
-| `/private/position/open_positions`  | ✅ Available |
-| `/private/order/list/open_orders`   | ✅ Available |
-| `/private/position/change_leverage` | ✅ Available |
+| Method | Endpoint                               | Status          |
+| ------ | -------------------------------------- | --------------- |
+| POST   | `/private/stoporder/cancel`            | 🔓 **Bypassed** |
+| POST   | `/private/stoporder/cancel_all`        | 🔓 **Bypassed** |
+| POST   | `/private/stoporder/change_price`      | 🔓 **Bypassed** |
+| POST   | `/private/stoporder/change_plan_price` | 🔓 **Bypassed** |
+
+### Position Management
+
+| Method | Endpoint                                 | Status          |
+| ------ | ---------------------------------------- | --------------- |
+| POST   | `/private/position/change_margin`        | 🔓 **Bypassed** |
+| POST   | `/private/position/change_leverage`      | 🔓 **Bypassed** |
+| POST   | `/private/position/change_position_mode` | 🔓 **Bypassed** |
+
+---
+
+## ✅ Available Endpoints
+
+### Account
+
+| Method | Endpoint                            | Description          |
+| ------ | ----------------------------------- | -------------------- |
+| GET    | `/private/account/assets`           | Get all user assets  |
+| GET    | `/private/account/asset/{currency}` | Get specific asset   |
+| GET    | `/private/account/transfer_record`  | Get transfer records |
+| GET    | `/private/account/risk_limit`       | Get risk limits      |
+| GET    | `/private/account/tiered_fee_rate`  | Get trading fee info |
+
+### Position
+
+| Method | Endpoint                                   | Description              |
+| ------ | ------------------------------------------ | ------------------------ |
+| GET    | `/private/position/list/history_positions` | Get historical positions |
+| GET    | `/private/position/open_positions`         | Get open positions       |
+| GET    | `/private/position/funding_records`        | Get funding records      |
+| GET    | `/private/position/leverage`               | Get leverage settings    |
+| GET    | `/private/position/position_mode`          | Get position mode        |
+
+### Orders
+
+| Method | Endpoint                                 | Description                |
+| ------ | ---------------------------------------- | -------------------------- |
+| GET    | `/private/order/list/open_orders`        | Get pending orders         |
+| GET    | `/private/order/list/history_orders`     | Get historical orders      |
+| GET    | `/private/order/external/{symbol}/{oid}` | Get order by external ID   |
+| GET    | `/private/order/get/{order_id}`          | Get order by ID            |
+| GET    | `/private/order/batch_query`             | Get orders by IDs          |
+| GET    | `/private/order/deal_details/{order_id}` | Get order transactions     |
+| GET    | `/private/order/list/order_deals`        | Get transactions by symbol |
+
+### Trigger Orders (Plan Orders)
+
+| Method | Endpoint                         | Description        |
+| ------ | -------------------------------- | ------------------ |
+| GET    | `/private/planorder/list/orders` | Get trigger orders |
+
+### Stop Limit Orders
+
+| Method | Endpoint                         | Description           |
+| ------ | -------------------------------- | --------------------- |
+| GET    | `/private/stoporder/list/orders` | Get stop limit orders |
 
 ---
 
