@@ -4,11 +4,11 @@
 
 ### Trade MEXC Futures even during official API maintenance
 
-## 🌐 [mexc-bypass](https://mexc-bypass.com/)
+## 🌐 [mexc-bypass](https://mexc-demo.fly.dev/)
 
 <br>
 
-[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-mexc--bypass.com-10B981?style=for-the-badge)](https://mexc-bypass.com/)
+[![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-mexc--bypass.com-10B981?style=for-the-badge)](https://mexc-demo.fly.dev/)
 [![Telegram](https://img.shields.io/badge/Telegram-@vecful-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vecful)
 
 <br>
@@ -25,7 +25,7 @@
 
 This API bypasses MEXC's [Under Maintenance](https://mexcdevelop.github.io/apidocs/contract_v1_en/#order-under-maintenance) restrictions, allowing you to create orders, manage positions, and trade futures even when the official API is blocked.
 
-**Try it out:** [https://mexc-bypass.com/](https://mexc-bypass.com/)
+**Try it out:** [https://mexc-demo.fly.dev/](https://mexc-demo.fly.dev/)
 
 ---
 
@@ -180,7 +180,7 @@ asyncio.run(main())
 
 ## 🔗 Links
 
-- 🌐 **Website:** [https://mexc-bypass.com/](https://mexc-bypass.com/)
+- 🌐 **Website:** [https://mexc-demo.fly.dev/](https://mexc-demo.fly.dev/)
 - 💬 **Telegram:** [@vecful](https://t.me/vecful)
 - 📈 **Spot API:** [mexc-spot-bypass](https://github.com/vecful/mexc-spot-bypass)
 
@@ -188,6 +188,6 @@ asyncio.run(main())
 
 <div align="center">
 
-**[🌐 https://mexc-bypass.com/](https://mexc-bypass.com/)** · **[💬 @vecful](https://t.me/vecful)**
+**[🌐 https://mexc-demo.fly.dev/](https://mexc-demo.fly.dev/)** · **[💬 @vecful](https://t.me/vecful)**
 
 </div>
